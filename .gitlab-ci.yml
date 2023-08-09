@@ -5,11 +5,11 @@ services:
 
 variables:
   DOCKER_DRIVER: "overlay2"
-  DOCKER_IMAGE_NAME: "demo-auth-service"
-  DOCKER_IMAGE_TAG: "latest"
+  DOCKER_IMAGE_NAME: "demo-auth-service" # MODIFY THIS
+  DOCKER_IMAGE_TAG: "latest" # MODIFY THIS (OPTIONAL)
   DOCKER_IMAGE_FULL: "${DOCKER_USERNAME}/${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG}"
-  PORT: "3001"
-  ENV_PATH: "/home/minh/var/www/${DOCKER_IMAGE_NAME}/.env"
+  PORT: "3001" # MODIFY THIS
+  ENV_PATH: "/home/minh/var/www/${DOCKER_IMAGE_NAME}/.env" # MODIFY THIS
 
 stages:
   - build
