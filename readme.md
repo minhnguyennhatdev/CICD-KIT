@@ -9,7 +9,7 @@
 > - DOCKER_IMAGE_TAG: image tag
 > - PORT: port to expose after deploy
 > - ENV_PATH: part of your .env file on server
-Example:
+### Example:
 > - DOCKER_IMAGE_NAME: "demo-auth-service"
 > - DOCKER_IMAGE_TAG: "latest"
 > - PORT: "3001"
