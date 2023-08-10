@@ -57,4 +57,4 @@ deploy:
       "docker pull $DOCKER_IMAGE_FULL;
       docker stop $DOCKER_IMAGE_FULL;
       docker run --env-file $ENV_PATH -e PORT=$PORT -p $PORT:$PORT -d $DOCKER_IMAGE_FULL;
-      docker image prune -f;"
+      docker image prune -f"
